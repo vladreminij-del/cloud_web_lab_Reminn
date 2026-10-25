@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
     return """
     <h1>CI/CD Cloud App</h1>
-    <p>Версія застосунку розгортається автоматично.</p>
+    <p>CI/CD deployment version 2</p>
     <p>Варіант 7: СТО. Замовлення: <code>/api/orders</code></p>
     """
 
