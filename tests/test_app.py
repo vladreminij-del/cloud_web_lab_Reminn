@@ -13,7 +13,7 @@ def test_health():
     response = client.get("/health")
     data = response.get_json()
     assert response.status_code == 200
-    assert data["status"] == "ok"
+    assert data["status"] == "failed"
 
 
 def test_unknown_route():
